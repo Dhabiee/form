@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    section{
+        width: 600px;
+        height: 52em;
+        border: 3px salmon solid;
+    }
+    .flex-container{
+        background-color: white
+    }
+    .wrap{
+        width: 100%;
+        height: 400px;
+        background: url(/element/IMG_0272.JPG);
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        padding-top: 350px;
+    }
+    .date-likes{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    #writeup{
+        text-align: center;
+        width: 500px;
+        margin: 60px 20px;
+        font-size: 24px;
+    }
+    button{
+        width: 150px;
+        height: 60px;
+        background: rgb(247 77 105);
+        color: white;
+        font-size: 24px;
+        border: none;
+    }
+    .readmore{
+        /* margin: 50px; */
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <section>
+        <div class="flex-container">
+            <div class="wrap">
+                <h2> New York</h2>
+            </div>
+            <div class="date-likes">
+                <p id="date">AUG 4</p>
+                <p id="likes">102</p>
+            </div>
+            <p id="writeup">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Quidem error adipisci odio voluptatibus amet labore id veniam, 
+                dolor magnam laboriosam beatae vel alias consectetur odit!</p>
+            <div class="readmore">
+                <button>
+                    READ MORE
+                </button>
+            </div>
+        </div>
+        <div></div>
+    </section>
+</body>
+</html>
